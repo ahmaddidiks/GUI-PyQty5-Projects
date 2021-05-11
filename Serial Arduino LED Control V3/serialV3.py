@@ -34,6 +34,7 @@ class mainApp(QDialog):
 
     @QtCore.pyqtSlot(bool)
     def on_toggled(self, checked):
+         
         #self.connect_btn.setText("Disconnect" if checked else "Connect")
         if checked:
             if not self.serial.isOpen():
