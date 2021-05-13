@@ -178,31 +178,34 @@
     <property name="text">
      <string>Santet Permanen?</string>
     </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_mulai">
     <property name="geometry">
      <rect>
       <x>300</x>
       <y>300</y>
-      <width>151</width>
+      <width>81</width>
       <height>51</height>
      </rect>
     </property>
     <property name="text">
-     <string>Mulai Santet!!!</string>
+     <string>Start!</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_berhenti">
     <property name="geometry">
      <rect>
-      <x>480</x>
+      <x>540</x>
       <y>300</y>
-      <width>151</width>
+      <width>91</width>
       <height>51</height>
      </rect>
     </property>
     <property name="text">
-     <string>Berhenti, kasian</string>
+     <string>Stop!</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_status">
@@ -232,6 +235,19 @@
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_pause">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>300</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pause!</string>
     </property>
    </widget>
   </widget>
